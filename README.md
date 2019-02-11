@@ -38,6 +38,10 @@ xbox controller, geomtry twist etc
 ## Usage
 All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml. Then build the package using catkin_make.
 
+Without the navigation package, you should still be able to drive the robot around and generate a map, following the tutorial [How to Build a Map Using Logged Data](http://wiki.ros.org/slam_gmapping/Tutorials/MappingFromLoggedData#record).
+
+To progress onwards to navigation, you will need to follow [2. Navigation Stack Setup](http://wiki.ros.org/navigation/Tutorials/RobotSetup).
+
 
 ## To Do
 * Add odom & base controller package.
