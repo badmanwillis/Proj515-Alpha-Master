@@ -36,7 +36,7 @@ xbox controller, geomtry twist etc
 
 
 ## Usage
-All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml.
+All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml. Then build the package using catkin_make.
 
 
 
