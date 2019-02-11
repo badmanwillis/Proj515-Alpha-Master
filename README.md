@@ -2,8 +2,9 @@
 The master repository, to be deployed to the Alpha robot for testing. This repo contains the various packages developed by the team. It is a software only repository for the Alpha, meant for quick deployment and version control.
 
 ## Requirements
-* Ubuntu 16.04
-* Ros Kinetic
+* [Ubuntu 16.04](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes)
+* [Ros Kinetic](http://wiki.ros.org/kinetic)
+* [The ROS navigation package](http://wiki.ros.org/navigation)
 
 ## Introduction
 The robot makes use of the [ROS Navigation package](http://wiki.ros.org/navigation), which contains packages for costmaps, path planning and much more. The tutorial for [Setup and Configuration of the Navigation Stack on a Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup) provides instructions for setting up the navigation stack on a custom robot, which requires platform specific nodes.
