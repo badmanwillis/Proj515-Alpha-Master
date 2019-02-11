@@ -18,7 +18,7 @@ The platform specific nodes, shown in blue, have been writted by various members
 ## Platform specific packages/nodes
 
 ### Sensor transforms
-[Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot. 
+[Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot, and Rviz support.
 
 ### Sensor sources
 Using the robopeak A1 lidar, which requires the [rplidar_ros](https://github.com/Slamtec/rplidar_ros) package.
