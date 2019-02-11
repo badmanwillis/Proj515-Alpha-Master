@@ -14,6 +14,8 @@ The robot makes use of the [ROS Navigation package](http://wiki.ros.org/navigati
 
 The platform specific nodes, shown in blue, have been writted by various members of the team, and are included in this repository.
 
+## Platform specific packages/nodes
+
 ### Sensor transforms
 [Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot. 
 
