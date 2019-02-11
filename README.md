@@ -15,6 +15,12 @@ The robot will make use of the [ROS Navigation package](http://wiki.ros.org/navi
 The platform specific nodes, shown in blue, have been writted by various members of the team, and are included in this repository.
 
 ### Sensor transforms
-[Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot. Also requires the rplidar package to use the lidar, as well as odometry data from the wheel encoders, from the odometry package.
+[Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot. 
+
+### Sensor sources
+Using the robopeak A1 lidar, which requires the [rplidar_ros](https://github.com/Slamtec/rplidar_ros) package.
 
 ### Odometry source
+Using custom built 
+
+### Base controller
