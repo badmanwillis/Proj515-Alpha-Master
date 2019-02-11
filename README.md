@@ -20,7 +20,15 @@ The platform specific nodes, shown in blue, have been writted by various members
 ### Sensor sources
 Using the robopeak A1 lidar, which requires the [rplidar_ros](https://github.com/Slamtec/rplidar_ros) package.
 
-### Odometry source
-Using custom built 
+### Odometry source & Base controller
+[PROJ515_Motor_Control_and_Odometry](https://github.com/ElliWhite/PROJ515_Motor_Control_and_Odometry) The code for both the odometry and the base controller have been written in C++ to run on the [Mbed ST-Nucleo-F429ZI microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F429ZI/). The board interfaces with the hardware for the encoders and motor controllers, and communicates with the computer using the [ros_serial node](http://wiki.ros.org/rosserial). 
 
-### Base controller
+#### About the Odom
+Using custom built magnetic encoders based on the [as5600 position sensor](https://ams.com/as5600].
+
+#### About the Base controller
+
+
+
+
+
