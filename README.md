@@ -17,13 +17,13 @@ The platform specific nodes, shown in blue, have been writted by various members
 
 ## Platform specific packages/nodes
 
-### Sensor transforms
+### Sensor transforms | alpha_urdf
 [Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot, and Rviz support.
 
-### Sensor sources
+### Sensor sources | rplidar_ros-master
 Using the robopeak A1 lidar, which requires the [rplidar_ros](https://github.com/Slamtec/rplidar_ros) package.
 
-### Odometry source & Base controller
+### Odometry source & Base controller |
 [PROJ515_Motor_Control_and_Odometry](https://github.com/ElliWhite/PROJ515_Motor_Control_and_Odometry) The code for both the odometry and the base controller have been written in C++ to run on the [Mbed ST-Nucleo-F429ZI microcontroller](https://os.mbed.com/platforms/ST-Nucleo-F429ZI/). The board interfaces with the hardware for the encoders and motor controllers, and communicates with the computer using the [ros_serial node](http://wiki.ros.org/rosserial). This keeps the code running in realtime, isolated from the computer.
 
 #### About the Odom
@@ -36,5 +36,9 @@ xbox controller, geomtry twist etc
 
 
 ## Usage
+All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml.
+
+
+
 
 
