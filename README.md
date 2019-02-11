@@ -18,7 +18,7 @@ The platform specific nodes, shown in blue, have been writted by various members
 ## Platform specific packages/nodes
 
 ### Sensor transforms | alpha_urdf
-[Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot, and Rviz support.
+[Proj515-Alpha-RobotSetup](https://github.com/badmanwillis/Proj515-Alpha-RobotSetup). Includes a URDF model of the robot, and Rviz support. Handles robot_state_publisher and tf broadcasting.
 
 ### Sensor sources | rplidar_ros-master
 Using the robopeak A1 lidar, which requires the [rplidar_ros](https://github.com/Slamtec/rplidar_ros) package.
@@ -38,6 +38,11 @@ xbox controller, geomtry twist etc
 ## Usage
 All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml. Then build the package using catkin_make.
 
+
+## To Do
+* Add odom & base controller package.
+* Add readme code for odom and base controller package.
+* Merge launch files to launch the entire workspace from one terminal command.
 
 
 
