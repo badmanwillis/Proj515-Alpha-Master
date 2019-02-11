@@ -1,0 +1,23 @@
+http://wiki.ros.org/navigation
+
+http://wiki.ros.org/navigation/MapBuilding
+
+https://openslam-org.github.io/gmapping.html
+
+http://wiki.ros.org/slam_gmapping/Tutorials/MappingFromLoggedData
+
+----------
+https://answers.ros.org/question/224502/slam_gmapping-installation/
+https://github.com/OpenSLAM-org/openslam_gmapping
+https://github.com/ros-perception/slam_gmapping
+http://wiki.ros.org/slam_gmapping
+
+
+------------neat http://wiki.ros.org/hector_mapping
+
+
+https://github.com/ros-planning/navigation 
+
+
+
+
