@@ -4,7 +4,7 @@ The master repository, to be deployed to the Alpha robot for testing. This repo 
 ## Requirements
 * [Ubuntu 16.04](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes)
 * [Ros Kinetic](http://wiki.ros.org/kinetic)
-* [The ROS navigation package](http://wiki.ros.org/navigation). This should be installed on the pc (in opt/ros/kinetic somewhere for global access. Not within your workspace, which is local access.)
+* [The ROS navigation package](http://wiki.ros.org/navigation). This should be installed using [sudo apt-get install ros-kinetic-navigation] on the pc (in opt/ros/kinetic somewhere for global access. Not within your workspace, which is local access.)
 
 ## Introduction
 The robot makes use of the [ROS Navigation package](http://wiki.ros.org/navigation), which contains packages for costmaps, path planning and much more. The tutorial for [Setup and Configuration of the Navigation Stack on a Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup) provides instructions for setting up the navigation stack on a custom robot, which requires platform specific nodes.
@@ -36,12 +36,19 @@ xbox controller, geomtry twist etc
 
 
 ## Usage
-All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml. Then build the package using catkin_make.
+All of the folder are ROS packages, containing the relevant code. Place them into your_workspace/src. 
+You will need to change the filepaths in alpha_urdf for display.launch and alpha.xml. Then build the package using catkin_make.
 
+## Deployment
+Source the workspace > source devel/setup.bash
+Run launch file > roslaunch alpha_urdf display.launch (Does not require prior running of roscore)
+
+If you get an error: "Failed to open port /dev/ttyUSB0", you need togive permission to access the port by running > sudo chmod a+rw /dev/ttyUSB0
+
+## Extra Info
 Without the navigation package, you should still be able to drive the robot around and generate a map, following the tutorial [How to Build a Map Using Logged Data](http://wiki.ros.org/slam_gmapping/Tutorials/MappingFromLoggedData#record).
 
 To progress onwards to navigation, you will need to follow [2. Navigation Stack Setup](http://wiki.ros.org/navigation/Tutorials/RobotSetup).
-
 
 ## To Do
 * Add odom & base controller package.
