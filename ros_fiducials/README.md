@@ -68,7 +68,7 @@ Make and source the workspace.
     
 Launch the ROS core in a new terminal window.
 
-  roscore
+    roscore
 
 Launch the "usb_cam_custom" camera package in a new terminal window.
 
@@ -83,13 +83,13 @@ To view the ROS computation graph for the Aruco detection run the following comm
 
     rqt_graph
     
-  ![aruco_rqt_graph](https://raw.githubusercontent.com/ldanilovic/PROJ515/master/pictures/Screenshot%20from%202019-02-14%2011-16-03.png?token=ApjXRixPsOIpXpHP5RQgiEj9hfh2U1YOks5cbojxwA%3D%3D)
+  ![aruco_rqt_graph](https://raw.githubusercontent.com/badmanwillis/Proj515-Alpha-Master/master/ros_fiducials/Screenshot%20from%202019-02-14%2011-16-03.png)
 
 The graph shows that the "usb_cam" image is rerouted through "fiducial_images" which detects Aruco markers, overlays the transform onto the image and displays it in "image_view".
 
 The results look like this:
 
-  ![aruco_rqt_graph](https://raw.githubusercontent.com/ldanilovic/PROJ515/master/pictures/Screenshot%20from%202019-02-14%2011-22-43.png?token=ApjXRms065QaAE6JDaX-J7F5-9CryGmVks5cboo1wA%3D%3D)
+  ![aruco_rviz](https://raw.githubusercontent.com/badmanwillis/Proj515-Alpha-Master/master/ros_fiducials/Screenshot%20from%202019-02-14%2011-22-43.png)
   
 ## Further work
 To obtain the transform frames, you need to subsrcibe to:
