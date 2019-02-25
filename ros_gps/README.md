@@ -1,6 +1,7 @@
 # ROS GPS for robot_pose_ekf
 The provided code and tutorial explain how to interface a GPS module with robot_pose_ekf ROS package.
 Please note the code already contains all the necessary parts and only pin asigments and names might need to be changed.
+Before starting please read through this [tutorial](http://wiki.ros.org/robot_pose_ekf/Tutorials/AddingGpsSensor)
 
 ![gps_module](https://storage.googleapis.com/stateless-www-faranux-com/2017/08/GYNEO6MV2-GPS-Module-NEO-6M-GY-NEO6MV2.jpg)
 
@@ -130,7 +131,7 @@ List and subscribe to relevant topics from your robot_pose_ekf:
     rostopic echo /gps_stng
     
 ## Results
-[Results](https://raw.githubusercontent.com/badmanwillis/Proj515-Alpha-Master/master/ros_gps/Screenshot%20from%202019-02-25%2015-05-16.png)
+![Results](https://raw.githubusercontent.com/badmanwillis/Proj515-Alpha-Master/master/ros_gps/Screenshot%20from%202019-02-25%2015-05-16.png)
 
 Terminal 1 is running ROS core (Top LEFT)
 Terminal 2 is running ROS serial (Top RIGHT)
